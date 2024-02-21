@@ -9,6 +9,7 @@
     <script src="../lib/graph/graph-component.js" type="module"></script>
     <script src="../lib/stats/stats-component.js" type="module"></script>
     <script src="../lib/header/header-component.js" type="module"></script>
+    <script src="../lib/card/card-component.js" type="module"></script>
     <style>
         html {
             background-color: gray;
@@ -27,13 +28,22 @@
         header-component {
             --header-background: red;
         }
+
+        card-component {
+            --card-background: red;
+        }
     </style>
 </head>
 
 <body>
-    <graph-component scale="2" levels="4" attack="1" defense="2" speed="7" magic="4"></graph-component>
-    <stats-component attack="5" defense="+5" speed="5" magic="5"></stats-component>
-    <header-component icon="../lib/assets/burst-solid.svg" level="7" name="Honor Warrior"></header-component>
+    <div>
+        <card-component></card-component>
+    </div>
+    <div>
+        <graph-component scale="2" levels="4" attack="1" defense="2" speed="7" magic="4"></graph-component>
+        <stats-component attack="5" defense="+5" speed="5" magic="5"></stats-component>
+        <header-component icon="../lib/assets/burst-solid.svg" level="7" name="Honor Warrior"></header-component>
+    </div>
 </body>
 
 </html>
