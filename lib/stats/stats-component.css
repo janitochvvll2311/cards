@@ -12,6 +12,7 @@ img {
     width: 1em;
     height: 1em;
     filter: var(--stats-icons-filter);
+    opacity: 80%;
 }
 
 table td {
