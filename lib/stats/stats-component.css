@@ -1,7 +1,14 @@
 table {
-    background-color: var(--stats-background-color);
+    background: var(--stats-background);
     font-family: monospace;
+    font-size: 1.5em;
     font-weight: bold;
     border: 2px solid black;
     padding: 5px;
+}
+
+img {
+    display: block;
+    width: 1em;
+    height: 1em;
 }

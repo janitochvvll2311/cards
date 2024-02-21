@@ -1,5 +1,5 @@
 #container {
-    background-color: var(--graph-background-color);
+    background: var(--graph-background);
     width: var(--graph-width);
     height: var(--graph-height);
     position: relative;
