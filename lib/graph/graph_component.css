@@ -1,0 +1,6 @@
+canvas {
+    background-color: var(--graph-background-color);
+    width: var(--graph-width);
+    height: var(--graph-height);
+    display: inline-block;
+}
