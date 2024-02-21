@@ -7,6 +7,7 @@
     <title>Playground</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <script src="../lib/graph/graph_component.js" type="module"></script>
+    <script src="../lib/stats/stats-component.js" type="module"></script>
     <style>
         html {
             background-color: gray;
@@ -14,14 +15,19 @@
 
         graph-component {
             --graph-background-color: red;
-            --graph-width: 300px;
-            --graph-height: 300px;
+            --graph-width: 256px;
+            --graph-height: 256px;
+        }
+
+        stats-component {
+            --stats-background-color: red;
         }
     </style>
 </head>
 
 <body>
     <graph-component scale="3" levels="4" points="10,4,4,8"></graph-component>
+    <stats-component></stats-component>
 </body>
 
 </html>

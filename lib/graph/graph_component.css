@@ -1,6 +1,19 @@
-canvas {
+#container {
     background-color: var(--graph-background-color);
     width: var(--graph-width);
     height: var(--graph-height);
-    display: inline-block;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img {
+    padding: 15%;
+    opacity: 50%;
+}
+
+canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }

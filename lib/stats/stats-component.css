@@ -1,0 +1,7 @@
+table {
+    background-color: var(--stats-background-color);
+    font-family: monospace;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 5px;
+}
