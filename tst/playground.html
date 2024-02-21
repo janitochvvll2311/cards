@@ -19,13 +19,15 @@
             --graph-height: 128px;
         }
 
-        stats-component {}
+        stats-component {
+            --stats-background: red;
+        }
     </style>
 </head>
 
 <body>
     <graph-component scale="2" levels="4" attack="1" defense="2" speed="7" magic="4"></graph-component>
-    <stats-component></stats-component>
+    <stats-component attack="5" defense="+5" speed="5" magic="5"></stats-component>
 </body>
 
 </html>
