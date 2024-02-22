@@ -43,7 +43,7 @@ canvas {
 
 span {
     font-family: monospace;
-    font-size: 1.5em;
+    font-size: var(--graph-text-size);
     text-align: center;
     align-self: center;
 }

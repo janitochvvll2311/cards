@@ -10,6 +10,7 @@
     <script src="../lib/header/header-component.js" type="module"></script>
     <script src="../lib/graph/graph-component.js" type="module"></script>
     <script src="../lib/stat/stat-component.js" type="module"></script>
+    <script src="../lib/warrior-card/warrior-card-component.js" type="module"></script>
     <style>
         html {
             background-color: gray;
@@ -24,13 +25,20 @@
         header-component {
             --header-background: red;
         }
+
+        warrior-card-component {
+            --card-background: cornflowerblue;
+        }
     </style>
 </head>
 
 <body>
     <div>
+        <warrior-card-component icon="../lib/assets/wind-solid.svg"
+            image="https://th.bing.com/th/id/OIP.79O6PInd08JH8vjfsoa7pAHaFj?rs=1&pid=ImgDetMain" name="Rainbow Dragon"
+            attack="2" defense="3" speed="4" magic="5" description="Rainbow dragon"></warrior-card-component>
         <stat-component icon="../lib/assets/droplet-solid.svg" points="24"></stat-component>
-        <graph-component scale="2" attack="0" defense="7" speed="7" magic="7"></graph-component>
+        <graph-component attack="0" defense="7" speed="7" magic="7"></graph-component>
         <header-component icon="../lib/assets/burst-solid.svg" level="7" name="Honor Warrior"></header-component>
         <back-component></back-component>
     </div>
