@@ -19,6 +19,7 @@
     background: var(--graph-background);
     width: var(--graph-width);
     height: var(--graph-height);
+    border: 1px solid black;
     position: relative;
 }
 
@@ -39,4 +40,5 @@ span {
     font-size: 1.5em;
     text-align: center;
     align-self: center;
+    opacity: 80%;
 }
