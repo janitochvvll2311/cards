@@ -6,12 +6,10 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Playground</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <script src="../lib/graph/graph-component.js" type="module"></script>
-    <script src="../lib/stats/stats-component.js" type="module"></script>
-    <script src="../lib/header/header-component.js" type="module"></script>
-    <script src="../lib/card/card-component.js" type="module"></script>
     <script src="../lib/back/back-component.js" type="module"></script>
-    <script src="../lib/editor/editor-component.js" type="module"></script>
+    <script src="../lib/header/header-component.js" type="module"></script>
+    <script src="../lib/graph/graph-component.js" type="module"></script>
+    <script src="../lib/stat/stat-component.js" type="module"></script>
     <style>
         html {
             background-color: gray;
@@ -23,35 +21,19 @@
             --graph-height: 128px;
         }
 
-        stats-component {
-            --stats-background: red;
-        }
-
         header-component {
             --header-background: red;
         }
 
-        card-component {
-            --card-background: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wHfi?ver=2b7d);
-        }
     </style>
 </head>
 
 <body>
     <div>
-        <editor-component></editor-component>
-    </div>
-    <div>
-        <card-component
-            image="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wHfi?ver=2b7d"
-            icon="../lib/assets/burst-solid.svg" name="Warriror with a long name" level="7" attack="8" defense="10"
-            speed="3" magic="4" description="Magician warrior"></card-component>
-            <back-component></back-component>
-    </div>
-    <div>
+        <stat-component></stat-component>
         <graph-component scale="2" levels="4" attack="1" defense="2" speed="7" magic="4"></graph-component>
-        <stats-component attack="5" defense="+5" speed="5" magic="5"></stats-component>
         <header-component icon="../lib/assets/burst-solid.svg" level="7" name="Honor Warrior"></header-component>
+        <back-component></back-component>
     </div>
 </body>
 
