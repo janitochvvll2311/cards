@@ -1,0 +1,15 @@
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 2.5in;
+    height: 3.5in;
+    border: 5px solid black;
+    border-radius: 0.125in;
+    background-color: gray;
+}
+
+img {
+    margin: 0.5in;
+}
