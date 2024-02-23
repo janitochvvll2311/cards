@@ -8,7 +8,7 @@
 }
 
 #container {
-    height: 2em;
+    height: var(--stat-height);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -20,6 +20,6 @@ img {
 }
 
 span {
-    font-size: 2em;
+    font-size: var(--stat-height);
     font-family: monospace;
 }
