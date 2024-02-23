@@ -16,31 +16,13 @@
             background-color: gray;
         }
 
-        graph-component {
-            --graph-background: red;
-            --graph-width: 128px;
-            --graph-height: 128px;
-        }
-
-        header-component {
-            --header-background: red;
-        }
-
-        card-component {
-            --card-background: cornflowerblue;
-        }
     </style>
 </head>
 
 <body>
     <div>
-        <card-component icon="../lib/assets/wind-solid.svg"
-            image="https://th.bing.com/th/id/OIP.79O6PInd08JH8vjfsoa7pAHaFj?rs=1&pid=ImgDetMain" name="Rainbow Dragon"
-            attack="2" defense="3" speed="4" magic="5" description="Rainbow dragon"></warrior-card-component>
-            <stat-component icon="../lib/assets/droplet-solid.svg" points="24"></stat-component>
-            <graph-component attack="0" defense="7" speed="7" magic="7"></graph-component>
-            <header-component icon="../lib/assets/burst-solid.svg" level="7" name="Honor Warrior"></header-component>
-            <back-component></back-component>
+        <header-component></header-component>
+        <stat-component></stat-component>
     </div>
 </body>
 
